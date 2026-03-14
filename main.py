@@ -18,8 +18,13 @@ def get_age():
         print("Возраст должен быть числом")
 
 
-name = get_name()
-print(f"Привет, {name}")
-age = get_age()
-print(f"Тебе {age} лет")
-print(f"Через 10 лет тебе будет {age + 10} лет")
+def main():
+    name = get_name()
+    age = get_age()
+    print(f"Привет, {name}")
+    print(f"Тебе {age} лет")
+    print(f"Через 10 лет тебе будет {age + 10} лет")
+
+
+if __name__ == "__main__":
+    main()
