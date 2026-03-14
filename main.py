@@ -1,1 +1,8 @@
-print("hello world")
+while True:
+    name = input("Как вас зовут? ").strip()
+
+    if name:
+        print(f"Привет, {name}")
+        break
+
+    print("Вы не ввели имя")
