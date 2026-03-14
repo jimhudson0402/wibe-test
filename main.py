@@ -1,4 +1,3 @@
-
 while True:
     name = input("Как вас зовут? ").strip()
 
@@ -7,3 +6,7 @@ while True:
         break
 else:
     print("Вы не ввели имя")
+        
+age = input("Сколько тебе лет? ").strip()
+print(f"Тебе {age} лет")
+
