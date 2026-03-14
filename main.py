@@ -12,3 +12,4 @@ name = get_name()
 print(f"Привет, {name}")
 age = input("Сколько тебе лет? ").strip()
 print(f"Тебе {age} лет")
+
