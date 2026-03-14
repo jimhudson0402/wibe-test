@@ -1,2 +1,6 @@
 name = input("Как вас зовут? ")
-print(f"Привет, {name}")
+
+if name:
+    print(f"Привет, {name}")
+else:
+    print("Вы не ввели имя")
